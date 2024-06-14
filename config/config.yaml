@@ -1,0 +1,6 @@
+lidar_odom_to_mavros:
+  ros__parameters:
+    subscribe_topic: '/Odometry'
+    publish_topic: '/mavros/vision_pose/pose'
+    # publish_topic: '/mavros/fake_gps/vision'
+    publish_rate: 10.0
